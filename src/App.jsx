@@ -10,7 +10,7 @@ function App() {
   const [holidays, setHolidays] = useState([]);
   const [country, setCountry] = useState("");
 
-  /*If this URL does not work, kindly write your own key from after 'api_key' to before &country*/
+  /*If this URL does not work, please write your own key from after 'api_key' to before &country*/
 
   const URL = `https://calendarific.com/api/v2/holidays?&api_key=H7ws3GAgyALomJzicRTM6S0uWMgjpjry&country=${country}&year=2023`;
 
